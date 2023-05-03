@@ -100,7 +100,7 @@ export default class Example extends Component {
     return (
       <View style={styles.container}>
         <ScrollView>
-          {/* <BannerExample title="AdMob - Basic">
+          <BannerExample title="AdMob - Basic">
             <AdMobBanner
               adSize="banner"
               adUnitID="ca-app-pub-3940256099942544/2934735716"
@@ -110,7 +110,7 @@ export default class Example extends Component {
               title="Reload"
               onPress={() => this._basicExample.loadBanner()}
             />
-          </BannerExample> */}
+          </BannerExample>
           {/* <BannerExample title="Smart Banner">
             <AdMobBanner
               adSize="smartBannerPortrait"
