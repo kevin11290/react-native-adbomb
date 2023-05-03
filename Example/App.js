@@ -146,7 +146,7 @@ export default class Example extends Component {
               onPress={() => this._adSizesExample.loadBanner()}
             />
           </BannerExample>
-          {/* <BannerExample
+          <BannerExample
             title="DFP - App Events"
             style={this.state.appEventsExampleStyle}>
             <PublisherBanner
@@ -169,7 +169,7 @@ export default class Example extends Component {
               onPress={() => this._appEventsExample.loadBanner()}
               style={styles.button}
             />
-          </BannerExample> */}
+          </BannerExample>
           {/* <BannerExample title="DFP - Fluid Ad Size">
             <View
               style={[
