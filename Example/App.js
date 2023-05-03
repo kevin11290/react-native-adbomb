@@ -170,7 +170,7 @@ export default class Example extends Component {
               style={styles.button}
             />
           </BannerExample>
-          <BannerExample title="DFP - Fluid Ad Size">
+          {/* <BannerExample title="DFP - Fluid Ad Size">
             <View
               style={[
                 { backgroundColor: '#f3f', paddingVertical: 10 },
@@ -203,7 +203,7 @@ export default class Example extends Component {
               onPress={() => this._appFluidAdSizeExample.loadBanner()}
               style={styles.button}
             />
-          </BannerExample>
+          </BannerExample> */}
         </ScrollView>
       </View>
     );
