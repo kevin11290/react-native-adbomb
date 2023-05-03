@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import {
-  Button,
-  Platform,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-import {
-  AdMobBanner,
-  AdMobInterstitial,
-  AdMobRewarded,
-  PublisherBanner,
-} from 'react-native-admob';
+// import {
+//   Button,
+//   Platform,
+//   ScrollView,
+//   StyleSheet,
+//   Text,
+//   View,
+// } from 'react-native';
+// import {
+//   AdMobBanner,
+//   AdMobInterstitial,
+//   AdMobRewarded,
+//   PublisherBanner,
+// } from 'react-native-admob';
 
 const BannerExample = ({ style, title, children, ...props }) => (
   <View {...props} style={[styles.example, style]}>
