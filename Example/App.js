@@ -128,12 +128,12 @@ export default class Example extends Component {
               onPress={this.showRewarded}
             />
           </BannerExample>
-          <BannerExample title="Interstitial">
+          {/* <BannerExample title="Interstitial">
             <Button
               title="Show Interstitial and preload next"
               onPress={this.showInterstitial}
             />
-          </BannerExample>
+          </BannerExample> */}
           {/* <BannerExample title="DFP - Multiple Ad Sizes">
             <PublisherBanner
               adSize="banner"
