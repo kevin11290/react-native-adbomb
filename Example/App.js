@@ -111,7 +111,7 @@ export default class Example extends Component {
               onPress={() => this._basicExample.loadBanner()}
             />
           </BannerExample>
-          <BannerExample title="Smart Banner">
+          {/* <BannerExample title="Smart Banner">
             <AdMobBanner
               adSize="smartBannerPortrait"
               adUnitID="ca-app-pub-3940256099942544/2934735716"
@@ -121,7 +121,7 @@ export default class Example extends Component {
               title="Reload"
               onPress={() => this._smartBannerExample.loadBanner()}
             />
-          </BannerExample>
+          </BannerExample> */}
           {/* <BannerExample title="Rewarded">
             <Button
               title="Show Rewarded Video and preload next"
