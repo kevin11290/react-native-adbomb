@@ -122,12 +122,12 @@ export default class Example extends Component {
               onPress={() => this._smartBannerExample.loadBanner()}
             />
           </BannerExample>
-          <BannerExample title="Rewarded">
+          {/* <BannerExample title="Rewarded">
             <Button
               title="Show Rewarded Video and preload next"
               onPress={this.showRewarded}
             />
-          </BannerExample>
+          </BannerExample> */}
           {/* <BannerExample title="Interstitial">
             <Button
               title="Show Interstitial and preload next"
