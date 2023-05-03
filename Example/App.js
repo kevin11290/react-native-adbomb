@@ -134,7 +134,7 @@ export default class Example extends Component {
               onPress={this.showInterstitial}
             />
           </BannerExample>
-          <BannerExample title="DFP - Multiple Ad Sizes">
+          {/* <BannerExample title="DFP - Multiple Ad Sizes">
             <PublisherBanner
               adSize="banner"
               validAdSizes={['banner', 'largeBanner', 'mediumRectangle']}
@@ -145,7 +145,7 @@ export default class Example extends Component {
               title="Reload"
               onPress={() => this._adSizesExample.loadBanner()}
             />
-          </BannerExample>
+          </BannerExample> */}
           {/* <BannerExample
             title="DFP - App Events"
             style={this.state.appEventsExampleStyle}>
